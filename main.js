@@ -2,7 +2,7 @@
 
     var lightBox = {
         INIT: function(selector) {
-            var videoContainer = document.querySelector(ele);
+            var videoContainer = document.querySelector(selector);
             var videoFrame = videoContainer.querySelector('img');
             var videoUrl = videoFrame.src
             var elements = this.createElements();
